@@ -4,7 +4,8 @@
   "description": "Atha WhatsApp Bot using Baileys",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+  "session": "node session.js"
   },
   "dependencies": {
     "@whiskeysockets/baileys": "^6.6.0",
