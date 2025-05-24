@@ -4,7 +4,11 @@ Bot WhatsApp Multi-Device sederhana berbasis Baileys.
 
 ## 📦 Perintah Default
 - `ping` → membalas dengan "pong 🏓"
-- `menu` → menampilkan menu
+- `menu` → menampilkan menu\Commands:
+- `sticker` → buat stiker dari gambar
+- `ytmp3` <link> : download audio YouTube
+- `ytmp4` <link> : download video YouTube
+
 
 ## 🚀 Cara Menjalankan
 1. Jalankan lokal: `npm install && node index.js`
