@@ -39,3 +39,9 @@ async function startBot() {
 }
 
 startBot()
+
+const express = require('express')
+const app = express()
+const port = process.env.PORT || 3000
+app.get('/', (_, res) => res.send('Atha-Bot is running ✅'))
+app.listen(port, () => console.log(`HTTP server listening on ${port}`))
